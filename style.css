@@ -36,7 +36,7 @@ body{
     width: 100%;
     background-color: rgb(255, 255, 255);
     position: fixed;
-    z-index: 999999;
+    z-index: 9999999999;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -117,15 +117,16 @@ body{
     background-color: rgb(157, 171, 0);
     position: absolute;
     top: 0;
-    right: 0;
-    z-index: 99;
+    left: 100%;
+    z-index: 9999;
     /* opacity: 0; */
     background-image: url(./img/home-anm-slide2.jpg);
     background-size: auto;
     background-position: center;
-    width: 0;
+    width: 100vw;
     flex-shrink: 0;
     padding-top: 16vh;
+
 }
 .layer2 p{
     position: absolute;
@@ -151,11 +152,98 @@ body{
     line-height: 1;
     white-space: nowrap;
     color: white;
+    /* transform: translate(-0%,0); */
 }
 .layer2 h1 span{
     color: black;
+    transform: translate(-0,-50%);
+}
+.layer3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    opacity: 0;
+    color: white;
+    padding-top: 20vh;
+    /* display: flex;
+    flex-direction: column; */
+}
+.layer3 h1{
+    font-size: 15vh;
+    line-height: 1;
+}
+.layer3 .rows{
+    height: 17vh;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    gap: 4vh;
+    align-items: center;
+    justify-content: center;
 }
 
+.layer4{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    /* opacity: 0; */
+    width: 0;
+    color: white;
+    padding-top: 20vh;
+    /* display: flex;
+    flex-direction: column; */
+    overflow: hidden;
+    background-image: url(./img/home-anm-slide3.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+.layer4 h1{
+    font-size: 15vh;
+    line-height: 1;
+    white-space: nowrap;
+}
+.layer4 h1 span{
+    color: rgb(226, 0, 226);
+}
+.layer4 .rows{
+    height: 17vh;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    gap: 4vh;
+    align-items: center;
+    justify-content: center;
+}
+.layer4 p{
+    font-family: reg;
+    font-size: 2vw;
+    padding-left: 20vh;
+    padding-top: 5vh;
+    opacity: .8;
+    white-space: nowrap;
+}
+.layer5{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    /* opacity: 0; */
+    color: white;
+    opacity: 0;
+
+}
 @media (max-width:700px) {
     #page1 .row {
         height: 8vh;

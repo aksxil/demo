@@ -150,7 +150,7 @@ body{
     padding-left: 10vh;
     font-size: 15vh;
     line-height: 1;
-    white-space: nowrap;
+    white-space: wrap;
     color: white;
     /* transform: translate(-0%,0); */
 }

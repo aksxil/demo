@@ -5,7 +5,7 @@ var tl = gsap.timeline(
         scrollTrigger: {
             trigger: "#main",
             start: "top top",
-            end: "800% 0%",
+            end: "750% 0%",
             scrub: 2,
             pin: true,
             // markers:true
@@ -74,7 +74,8 @@ function anim2() {
 
 function anim3(){
     tl.from(".layer2 p",{
-        x:"100px",
+        y:"50px",
+        opacity:0,
         duration:.3,
         // y:"80px",
         ease: "power1.in",
@@ -121,6 +122,9 @@ tl.to(".layer2",{
 tl.to(".layer3",{
     right:"-100%"
 })
+tl.to("#page1",{
+    backgroundImage:"none"
+},"d")
 
 tl.to(".layer4",{
     width:"100%",
@@ -166,6 +170,15 @@ tl.to(".layer5",{
     width:0
 },"sl")
 
+tl.to("#page1", {
+    background: "none"
+},"w");
+  
+tl.to("#page1", {
+    backgroundImage: "none"
+  },"w");
+  
+
 tl.to("#page1 .purple",{
     delay:"-2s",
     left:0,
@@ -187,10 +200,4 @@ tl.from(".layer6 .l6div p",{
     stagger:.2
 },"l6")
 
-// tl.from(".layer6 .about",{
-//     opacity:0,
-//     rotate:7,
-//     y:"40px",
-//     ease:"power2.in"
-// })
 

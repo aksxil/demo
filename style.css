@@ -150,7 +150,7 @@ body{
     padding-left: 10vh;
     font-size: 15vh;
     line-height: 1;
-    white-space: wrap;
+    white-space: nowrap;
     color: white;
     /* transform: translate(-0%,0); */
 }
@@ -225,11 +225,13 @@ body{
 }
 .layer4 p{
     font-family: reg;
-    font-size: 2vw;
+    font-size: 1.8vw;
     padding-left: 20vh;
     padding-top: 5vh;
     opacity: .8;
     white-space: nowrap;
+    /* background-color: red; */
+    margin-left: -8vh;
 }
 .layer5{
     height: 100vh;

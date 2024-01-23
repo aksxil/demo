@@ -244,6 +244,99 @@ body{
     opacity: 0;
 
 }
+.purple{
+    position: absolute;
+    height: 100vh;
+    width: 30vw;
+    background-color: rgb(143, 6, 193);
+    top: 0;
+    right: -100%;
+    z-index: 999999;
+}
+.purlay{
+    height: 100%;
+    width: 8px;
+    background-color: rgb(255, 0, 255);
+}
+.layer6{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url(./img/home-anm-slide4.jpg);
+    background-position: top;
+    background-size: cover;
+    z-index: 999999;
+    opacity: 0;
+    display: flex;
+    padding-top: 17vh;
+    padding-left: 5vh;
+}
+.layer6 h1{
+    font-size: 10vh;
+    color: #A036F5;
+    line-height: 1;
+    width: 30%;
+}
+.layer6 span{
+    color: black;
+}
+.l6div{
+    height: 100vh;
+    padding-top: 35vh;
+    width: 40vw;
+    /* background-color: aquamarine; */
+}
+.l6div p{
+    font-family: reg;
+    /* font-weight: 100; */
+    font-size: 1.7vw;
+}
+.l6div span{
+    color: #A036F5;
+}
+.l6div a{
+    text-decoration: none;
+    color: black;
+}
+.about{
+    margin-top: 4vh;
+    height: 8vh;
+    width: 25vw;
+    /* background-color: aquamarine; */
+    border: 2px solid black;
+    display: flex;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+.about .left{
+    height: 100%;
+    width: 85%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-right: 2px solid black;
+}
+.about .right {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+}
+.about:hover{
+    background-color: black;
+    color: #A036F5;
+}
+
+#last{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
 @media (max-width:700px) {
     #page1 .row {
         height: 8vh;
@@ -298,5 +391,60 @@ body{
         width: 40%;
         left: 8%;
         top: 70vh;
+    }
+    .layer3,.layer4{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 40vh;
+        overflow: hidden;
+    }
+    .layer3 .rows, .layer4 .rows{
+        /* background-color: orange; */
+        height: 8vh;
+        gap: 2vh;
+    }
+    .layer3 .rows h1, .layer4 .rows h1{
+        font-size: 6vh;
+    }
+    .layer4 p{
+        font-size: 3vh;
+    }
+    .layer6{
+        flex-direction: column;
+        gap: 0;
+    }
+    .layer6 h1{
+        font-size: 6vh;
+        width: 60%;
+    }
+
+
+
+    /* djdjjdddddd */
+
+    .l6div{
+        padding-top: 5vh;
+        width: 100%;
+        /* background-color: aquamarine; */
+    }
+
+    .l6div p{
+        font-family: reg;
+        /* font-weight: 100; */
+        font-size: 5vw;
+    }
+    .about{
+        margin-top: 4vh;
+        height: 8vh;
+        width: 80vw;
+        /* background-color: aquamarine; */
+        border: 2px solid black;
+        display: flex;
+        cursor: pointer;
+        transition: all ease .3s;
+    }
+    .about .right{
+        font-size: 5vh;
     }
 }

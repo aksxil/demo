@@ -414,8 +414,11 @@ body{
         font-size: 5vh;
     }
     .layer4 p{
-        font-size: 3vh;
+        font-size: 2.4vh;
         padding-left: 0;
+        width: 90%;
+        /* background-color: red; */
+        white-space: wrap;
     }
     .layer6{
         flex-direction: column;

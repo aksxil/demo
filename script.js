@@ -5,10 +5,10 @@ var tl = gsap.timeline(
         scrollTrigger: {
             trigger: "#main",
             start: "top top",
-            end: "650% 0%",
+            end: "800% 0%",
             scrub: 2,
             pin: true,
-            markers:true
+            // markers:true
         }
     }
 );
@@ -154,8 +154,43 @@ tl.to(".layer4 .sms",{
     scale:.3,
     ease: "power1.in",
 },"w")
+tl.to(".layer6",{
+    opacity:1
+})
 
 tl.to(".layer5",{
     opacity:1
 },"w")
+
+tl.to(".layer5",{
+    width:0
+},"sl")
+
+tl.to("#page1 .purple",{
+    delay:"-2s",
+    left:0,
+    width:0,
+    backgroundColor:"puple"
+},"sl")
+
+// tl.from(".layer6 .l6div p",{
+//     rotate:10,
+//     stagger:.3
+// })
+
+tl.from(".layer6 .l6div p",{
+    opacity:0,
+    rotate:7,
+    y:"40px",
+    transformOrigin:"left 0",
+    ease:"power2.in",
+    stagger:.2
+},"l6")
+
+// tl.from(".layer6 .about",{
+//     opacity:0,
+//     rotate:7,
+//     y:"40px",
+//     ease:"power2.in"
+// })
 

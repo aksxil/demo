@@ -283,14 +283,14 @@ body{
 }
 .l6div{
     height: 100vh;
-    padding-top: 35vh;
+    padding-top: 25vh;
     width: 40vw;
     /* background-color: aquamarine; */
 }
 .l6div p{
     font-family: reg;
     /* font-weight: 100; */
-    font-size: 1.7vw;
+    font-size: 1.4vw;
 }
 .l6div span{
     color: #A036F5;
@@ -345,6 +345,12 @@ body{
     #page1 .row h1{
         font-size: 8vh;
         white-space: nowrap;
+    }
+    #page1 .row2{
+        padding-left: 10vh;
+    }
+    #page1 .row3{
+        padding-left: 5vh;
     }
     #page1{
         padding-top: 0;
@@ -401,22 +407,25 @@ body{
     }
     .layer3 .rows, .layer4 .rows{
         /* background-color: orange; */
-        height: 8vh;
+        height: 7vh;
         gap: 2vh;
     }
     .layer3 .rows h1, .layer4 .rows h1{
-        font-size: 6vh;
+        font-size: 5vh;
     }
     .layer4 p{
         font-size: 3vh;
+        padding-left: 0;
     }
     .layer6{
         flex-direction: column;
         gap: 0;
+        padding-top: 13vh;
+        padding-left: 3vh;
     }
     .layer6 h1{
         font-size: 6vh;
-        width: 60%;
+        width: 80%;
     }
 
 
@@ -424,20 +433,19 @@ body{
     /* djdjjdddddd */
 
     .l6div{
-        padding-top: 5vh;
+        padding-top: 3vh;
         width: 100%;
-        /* background-color: aquamarine; */
     }
 
     .l6div p{
         font-family: reg;
         /* font-weight: 100; */
-        font-size: 5vw;
+        font-size: 4.6vw;
     }
     .about{
-        margin-top: 4vh;
-        height: 8vh;
-        width: 80vw;
+        margin-top: 2vh;
+        height: 5vh;
+        width: 65vw;
         /* background-color: aquamarine; */
         border: 2px solid black;
         display: flex;

@@ -383,8 +383,9 @@ body{
        height: 25px;
     }
     .layer2 h1{
-        font-size: 7vh;
+        font-size: 6vh;
         padding-left: 3vh;
+        padding-top: 2vh;
         white-space: wrap;
     }
     .layer2{
@@ -414,9 +415,9 @@ body{
         font-size: 5vh;
     }
     .layer4 p{
-        font-size: 2.4vh;
-        padding-left: 0;
-        width: 90%;
+        font-size: 2vh;
+        padding-left: 2vh;
+        width: 80%;
         /* background-color: red; */
         white-space: wrap;
     }
@@ -427,7 +428,7 @@ body{
         padding-left: 3vh;
     }
     .layer6 h1{
-        font-size: 6vh;
+        font-size: 5vh;
         width: 80%;
     }
 
